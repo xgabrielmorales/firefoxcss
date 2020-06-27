@@ -1,0 +1,13 @@
+/* Hide window MAX MIN CLOSE buttons */
+.titlebar-buttonbox-container {
+    display: none;
+}
+
+#tabbrowser-tabs {
+	--tab-line-color: none !important;
+}
+
+.tabbrowser-tab[selected] .tab-background {
+	background: #18191c !important;
+}
+
