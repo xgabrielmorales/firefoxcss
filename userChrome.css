@@ -1,11 +1,8 @@
+@import '_variables.css';
 @import '_url-bar.css';
 @import '_tab-bar.css';
-@import '_variables.css';
 
 * {
-	border-radius: 0px;
+	border: 0px;
 }
 
-#titlebar {
-	background-color: #18191c !important;
-}

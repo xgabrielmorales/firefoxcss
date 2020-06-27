@@ -1,5 +1,5 @@
 #nav-bar {
-	background-color: var(--grisobscuro) !important;
+	background: var(--negro) !important;
 	border: none !important;
 }
 
@@ -8,12 +8,21 @@
 	background-color: #a2a2a2 !important;
 	background: #1a1a1a !important;
 	border: none !important;
-	color : #f2f2f2 !important;
+	color : var(--blanco) !important;
+}
+
+#urlbar-background, #searchbar {
+	border: none !important;
+}
+
+#urlbar-background {
+	background: var(--negro) !important;
+	color: var(--blanco) !important;
 }
 
 #urlbar-input-container {
-	background: var(--grisobscuro) !important;
-	color: #d0d0cf !important;
+	background: var(--negro) !important;
+	color: var(--blanco) !important;
 	border-radius: 0px !important;
 }
 
@@ -67,4 +76,17 @@
   width: 16px !important;
   min-height: 0px !important;
   min-width: 0px !important;
+}
+
+/*Deshabilitar la megabar*/
+#urlbar[breakout][breakout-extend] {
+    top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+    left: 0px !important;
+    width: 100% !important;
+}
+
+#urlbar[breakout][breakout-extend] > #urlbar-input-container {
+    height: var(--urlbar-height) !important;
+    padding-inline: 0 !important;
+    padding-block: 0 !important;
 }

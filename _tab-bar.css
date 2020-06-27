@@ -1,4 +1,8 @@
-/* Hide window MAX MIN CLOSE buttons */
+#titlebar {
+	background-color: var(--gris) !important;
+	-moz-box-ordinal-group: 3 !important;
+}
+
 .titlebar-buttonbox-container {
     display: none;
 }
@@ -7,7 +11,9 @@
 	--tab-line-color: none !important;
 }
 
-.tabbrowser-tab[selected] .tab-background {
-	background: #18191c !important;
+.tabbrowser-tab {
+	color: var(--blanco) !important;
 }
-
+.tabbrowser-tab[selected] .tab-background {
+	background: var(--negro) !important;
+}

@@ -1,21 +1,25 @@
 @import '_variables.css';
 
+* {
+	border: 0px;
+}
+
 @-moz-document url("about:home"), url("about:newtab"){
-  .activity-stream {
-    background-color: var(--grisobscuro)!important;
-  }
-  #newtab-search-text {
-  	background-color: var(--gray)!important;
-  	color: black !important;
-  }
-  .search-wrapper:active input, .search-wrapper input:focus {
-	border-color: white !important;
-	box-shadow: 0 0 0 1px black !important;
+	.activity-stream {
+		background: var(--blanco) !important;
   }
 
+  #newtab-search-text {
+  	background: #ffffff !important;
+  	color: #222 !important;
+  }
+
+ .search-wrapper .logo-and-wordmark .wordmark {
+	fill: var(--gris) !important;
+ }
 }
 @-moz-document url("about:blank") {
   *:empty:not([id]):not([style]) {
-    background-color: #0e0e0f !important;
+    background-color: var(--blacno) !important;
   }
 }
