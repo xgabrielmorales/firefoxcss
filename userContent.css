@@ -1,10 +1,12 @@
 @import '_variables.css';
 
-* {
-	border: 0px;
+@-moz-document url ("about:blank") {
+  *:empty:not([id]):not([style]) {
+    background-color: var(--blacno) !important;
+  }
 }
 
-@-moz-document url("about:home"), url("about:newtab"){
+@-moz-document url ("about:home"), url ("about:newtab"){
 	.activity-stream {
 		background: var(--blanco) !important;
   }
@@ -14,12 +16,9 @@
   	color: #222 !important;
   }
 
- .search-wrapper .logo-and-wordmark .wordmark {
+ .wordmark,
+ .search-wrapper,
+ .logo-and-wordmark {
 	fill: var(--gris) !important;
  }
-}
-@-moz-document url("about:blank") {
-  *:empty:not([id]):not([style]) {
-    background-color: var(--blacno) !important;
-  }
 }

@@ -1,33 +1,20 @@
-#nav-bar {
-	background: var(--negro) !important;
-	border: none !important;
-}
-
 #urlbar{
 	box-shadow: none !important;
 	background-color: #a2a2a2 !important;
 	background: #1a1a1a !important;
-	border: none !important;
 	color : var(--blanco) !important;
 }
 
-#urlbar-background, #searchbar {
-	border: none !important;
-}
-
-#urlbar-background {
-	background: var(--negro) !important;
-	color: var(--blanco) !important;
-}
-
+#nav-bar,
+#urlbar-background,
 #urlbar-input-container {
 	background: var(--negro) !important;
 	color: var(--blanco) !important;
-	border-radius: 0px !important;
 }
 
-#forward-button,
 #back-button,
+#forward-button,
+#library-button,
 #pageActionButton,
 #tracking-protection-icon-container,
 .tab-close-button {
@@ -37,7 +24,6 @@
 /*Animaciones*/
 
 /* Library, Sidebar, Navigations */
-#library-button .toolbarbutton-icon,
 #sidebar-button .toolbarbutton-icon,
 #back-button .toolbarbutton-icon,
 #forward-button .toolbarbutton-icon,
@@ -58,7 +44,7 @@
 #navigator-toolbox:hover #pocket-button,
 #navigator-toolbox:hover #pageActionButton,
 #navigator-toolbox:hover #star-button{
-  width: 24px !important;
+	width: 24px !important;
 }
 
 /* Bookmarks, shield, face, hamburger */
