@@ -1,7 +1,5 @@
 :root {
-	--negro: #141414;
-	--negroclaro: #1d1d1f;
-	--blanco: #f7f7f7;
-	--gris: #3c3c3c;
-	--grisclaro: #fafafa;
+	--primary: #0d0d0d;
+	--secondary: #eaeaee;
+	--gray: #d1d1d1;
 }

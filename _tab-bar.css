@@ -1,24 +1,24 @@
 #titlebar {
-	-moz-box-ordinal-group: 3 !important;
-	background-color: var(--gris) !important;
+	    -moz-box-ordinal-group: 3 !important;
+	background: var(--gray) !important;
 }
 
 /*Full-width tabs*/
-#TabsToolbar .tabbrowser-tab[fadein]:not([pinned]) {
-  flex-grow: 1 !important;
-  min-width: 11em !important;
-  max-width: 100% !important;
+#TabsToolbar   .tabbrowser-tab[fadein]:not([pinned]) {
+	flex-grow: 1 !important;
+	min-width: 11em !important;
+	max-width: 100% !important;
 }
 
 .tabbrowser-tab {
-	color: var(--blanco) !important;
+	color: var(--primary) !important;
 }
 .tabbrowser-tab[selected] .tab-background {
-	background: var(--negro) !important;
+	background: var(--secondary) !important;
 }
 
 .titlebar-buttonbox-container {
-    display: none;
+	display: none;
 }
 
 #tabbrowser-tabs {

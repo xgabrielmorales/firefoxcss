@@ -1,24 +1,24 @@
-@import '_variables.css';
+@import "_variables.css";
 
 @-moz-document url ("about:blank") {
-  *:empty:not([id]):not([style]) {
-    background-color: var(--blacno) !important;
-  }
+	*:empty:not([id]):not([style]) {
+		background-color: var(--secundary) !important;
+	}
 }
 
-@-moz-document url ("about:home"), url ("about:newtab"){
+@-moz-document url ("about:home"), url ("about:newtab") {
 	.activity-stream {
-		background: var(--blanco) !important;
-  }
+		background: var(--secundary) !important;
+	}
 
-  #newtab-search-text {
-  	background: #ffffff !important;
-  	color: #222 !important;
-  }
+	#newtab-search-text {
+		background: #ffffff !important;
+		color: #222 !important;
+	}
 
- .wordmark,
- .search-wrapper,
- .logo-and-wordmark {
-	fill: var(--gris) !important;
- }
+	.wordmark,
+	.search-wrapper,
+	.logo-and-wordmark {
+		fill: var(--gris) !important;
+	}
 }
