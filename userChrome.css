@@ -3,6 +3,6 @@
 @import "_tab-bar.css";
 
 * {
-	border: none !important;
-	border-radius: 0px !important;
+	border: none        !important;
+	border-radius: 0px  !important;
 }

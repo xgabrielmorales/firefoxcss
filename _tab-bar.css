@@ -1,26 +1,24 @@
 #titlebar {
-	    -moz-box-ordinal-group: 3 !important;
-	background: var(--gray) !important;
+	-moz-box-ordinal-group: 3  !important;
+	background: var(--gray)    !important;
 }
 
-/*Full-width tabs*/
-#TabsToolbar   .tabbrowser-tab[fadein]:not([pinned]) {
-	flex-grow: 1 !important;
-	min-width: 11em !important;
-	max-width: 100% !important;
+/* Tabs de ancho completo */
+#TabsToolbar,
+.tabbrowser-tab[fadein]:not([pinned]) {
+	flex-grow: 1     !important;
+	min-width: 11em  !important;
+	max-width: 100%  !important;
+}
+/* Tabs con texto centrado */
+.tab-content {
+	display: flex            !important;
+	flex-direction: row      !important;
+	justify-content: center  !important;
+	align-items: center      !important;
 }
 
 .tabbrowser-tab {
-	color: var(--primary) !important;
-}
-.tabbrowser-tab[selected] .tab-background {
-	background: var(--secondary) !important;
-}
-
-.titlebar-buttonbox-container {
-	display: none;
-}
-
-#tabbrowser-tabs {
-	--tab-line-color: none !important;
+	color: var(--primary)   !important;
+	--tab-line-color: none  !important;
 }
