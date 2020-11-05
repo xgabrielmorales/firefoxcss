@@ -13,12 +13,15 @@
 /* Tabs con texto centrado */
 .tab-content {
 	display: flex            !important;
-	flex-direction: row      !important;
 	justify-content: center  !important;
 	align-items: center      !important;
 }
 
-.tabbrowser-tab {
+.toolbar-items{
+	background-color: var(--gray); !important;
 	color: var(--primary)   !important;
+}
+
+.tabbrowser-tab {
 	--tab-line-color: none  !important;
 }
